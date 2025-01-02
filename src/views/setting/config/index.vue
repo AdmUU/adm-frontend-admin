@@ -169,6 +169,9 @@
             break
         }
       }
+      if (item.input_type === 'textarea') {
+        option.maxLength = 255
+      }
       if (item.input_type === 'key-value') {
         item.value = JSON.parse(item.value)
       }

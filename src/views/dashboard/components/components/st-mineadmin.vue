@@ -57,15 +57,12 @@
       </a-card>
     </div>
     <div class="w-11/12 mx-auto mt-3">
-      <a-tag class="ml-0.5">Admin.IM v{{ admVersion }} release</a-tag>
-      <a-tag class="ml-0.5">MineAdmin v{{ config.version }} release</a-tag>
+      <a-tag class="ml-0.5">Admin.IM {{ admVersion }} release</a-tag>
     </div>
   </div>
 </template>
 
 <script setup>
-  import config from '@/../package.json'
-  
   const admVersion = import.meta.env.VITE_APP_VERSION;
 
   const openPage = (url = '') => {
