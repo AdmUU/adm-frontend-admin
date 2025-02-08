@@ -24,7 +24,7 @@ export default {
     'success': 'Success',
     'fail': 'Fail',
     'copy': 'copy',
-    'notConfig': 'Not config',    
+    'notConfig': 'Not config',
     'printTable': 'Print Table',
     'refreshTable': 'Refresh Table',
     'fold': 'Fold',
@@ -174,7 +174,7 @@ export default {
     'content': 'Content',
     'remark': 'Remark',
     'announcementContentRequired': 'Announcement content is required',
-    
+
     'setting:site_name': 'Site Name',
     'setting:site_subtitle': 'Subtitle',
     'setting:site_url': 'Site URL',
@@ -193,5 +193,6 @@ export default {
     'setting:upload_allow_image': 'Allow Images',
     'setting:enable_warp_node': 'Warp Node',
     'setting:extra_enable_warp_node': 'When cloudflare warp is enabled on a node, the tcping delay speed measurement will be inaccurate. It is recommended to block such nodes.',
-    
+    'setting:enable_ping_china_map': 'China Map',
+    'setting:enable_ping_china_map': 'Ping test results showing China map.',
 };

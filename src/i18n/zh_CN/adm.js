@@ -164,7 +164,7 @@ export default {
     'nickName': '昵称',
     'cellPhone': '手机号',
     'email': '邮箱',
-    'personalSignature': '个性签名',    
+    'personalSignature': '个性签名',
     'announcementTitle': '公告标题',
     'announcementTitleRequired': '公告标题必填',
     'announcementType': '公告类型',
@@ -174,7 +174,7 @@ export default {
     'content': '公告内容',
     'remark': '备注',
     'announcementContentRequired': '公告内容必填',
-        
+
     'setting:site_name': '网站名称',
     'setting:site_subtitle': '副标题',
     'setting:site_url': '网站地址',
@@ -193,5 +193,6 @@ export default {
     'setting:upload_allow_image': '允许图片格式',
     'setting:enable_warp_node': 'Warp节点',
     'setting:extra_enable_warp_node': '当节点开启Cloudflare Warp后，tcping延迟测速会不准确，建议屏蔽此类节点。',
-
+    'setting:enable_ping_china_map': '中国地图',
+    'setting:extra_enable_ping_china_map': 'Ping检测结果显示中国地图。',
 };
